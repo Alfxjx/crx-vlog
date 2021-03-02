@@ -6,7 +6,7 @@ A simple but useful screen recording browser extension.
 
 search [EasyRecorder]() in MicroSoft Edge Store to get it!
 
-![usage]()
+![usage](https://github.com/Alfxjx/crx-vlog/blob/master/static/usage.png)
 
 ## Base
 

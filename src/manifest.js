@@ -1,9 +1,9 @@
 
 module.exports = {
-  name: 'Vue Extension',
+  name: 'EasyRecorder',
   version: '1.0.0',
-  description: 'Vue.js Chrome Extension Template (wcer)',
-  author: 'yura',
+  description: 'Free screen recorder extension',
+  author: 'alfxjx',
   manifest_version: 2,
   icons: { '16': 'icons/16.png', '128': 'icons/128.png' },
   permissions: [
@@ -21,7 +21,7 @@ module.exports = {
     'identity.email'
   ],
   browser_action: {
-    default_title: 'title',
+    default_title: 'EasyRecorder',
     default_popup: 'pages/popup.html'
   },
   background: {

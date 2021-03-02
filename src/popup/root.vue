@@ -1,33 +1,39 @@
 <template>
-	<div>
-		<el-button type="primary" @click="tab()">ACTION</el-button>
+	<div class="pop">
+		<span class="hint">
+			<img src="../../static/icons/16.png" alt="" srcset="" />
+			Click to Start</span
+		>
+		<el-button style="width:100%" type="primary" round @click="tab()"
+			>Start</el-button
+		>
 	</div>
 </template>
+
 <script>
-import { Vlog } from "console-vlog/dist/bundle.esm";
 export default {
-	data() {
-		return {
-			recorder: null,
-		};
-	},
-	computed: {},
-	created() {},
-	mounted() {
-		this.recorder = new Vlog({ name: "download" });
-	},
+	mounted() {},
 	methods: {
 		tab() {
-			// chrome.tabs.create({ url: "pages/app.html" });
-      this.recorder.start();
+			chrome.tabs.create({ url: "pages/app.html" });
 		},
 	},
 };
 </script>
 <style lang="scss">
-div {
-	color: blue;
-  width: 80rem;
-  height: 40rem;
+.pop {
+	width: 10rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	.hint {
+		margin: 1rem 0;
+		display: flex;
+		align-items: center;
+		img {
+			margin: 0 0.5rem 0 0;
+		}
+	}
 }
 </style>

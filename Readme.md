@@ -1,4 +1,4 @@
-# EasyRecorder
+# [EasyRecorder](https://microsoftedge.microsoft.com/addons/detail/easyrecorder/hkhpbenocenpoanfmancakiemjcfopdi?hl=zh-CN)
 
 A simple but useful screen recording browser extension.
 

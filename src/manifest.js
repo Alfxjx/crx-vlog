@@ -1,7 +1,7 @@
 
 module.exports = {
   name: 'EasyRecorder',
-  version: '1.0.0',
+  version: '1.0.1',
   description: 'Free screen recorder extension',
   author: 'alfxjx',
   manifest_version: 2,

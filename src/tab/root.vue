@@ -3,15 +3,16 @@
 		<div class="tab">
 			<el-card class="tab-card">
 				<div class="logo">
-					<img src="../../static/Vue.png" width="50%" alt="" srcset="" />
+					<img src="../../static/icons/128.png" width="50%" alt="" srcset="" />
 				</div>
 				<div class="hint">
 					<el-alert
 						type="info"
 						center
 						title="input the name of the video"
+						:closable="false"
 					></el-alert>
-				</div>
+				</div>	
 				<el-input v-model="name"></el-input>
 				<el-button class="btns" type="primary" @click="startRecorder()"
 					>Start</el-button
@@ -22,7 +23,7 @@
 			</el-card>
 			<el-card class="tab-desc">
 				<div class="img">
-					<img src="../../static/actions-hint.jpg" width="600px" alt="" />
+					<img src="../../static/example.gif" width="600px" alt="" />
 				</div>
 				<el-alert
 					type="success"
@@ -60,10 +61,10 @@ export default {
 	},
 	mounted() {
 		document.title = "EasyRecorder";
-		this.recorder = new Vlog({ name: this.name });
 	},
 	methods: {
 		startRecorder() {
+			this.recorder = new Vlog({ name: this.name });
 			this.recorder.start();
 		},
 		stopRecorder() {

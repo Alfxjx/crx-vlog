@@ -2,7 +2,7 @@
 	<div class="pop">
 		<span class="hint">
 			<img src="../../static/icons/16.png" alt="" srcset="" />
-			Click to Start</span
+			点击开始录制/Click to Start</span
 		>
 		<el-button style="width:100%" type="primary" round @click="tab()"
 			>Start</el-button

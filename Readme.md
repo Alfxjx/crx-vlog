@@ -4,7 +4,7 @@ A simple but useful screen recording browser extension.
 
 ## Usage
 
-search [EasyRecorder]() in MicroSoft Edge Store to get it!
+search [EasyRecorder](https://microsoftedge.microsoft.com/addons/detail/easyrecorder/hkhpbenocenpoanfmancakiemjcfopdi) in MicroSoft Edge Store to get it!
 
 ![usage]()
 

@@ -10,3 +10,5 @@ yarn.lock
 
 # Backpack build
 build
+
+build.zip
